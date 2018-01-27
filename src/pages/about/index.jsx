@@ -19,8 +19,8 @@ const About = ({ location }) => (
     <Wrapper>
       <div className={styles.about}>
         <section className={styles.intro}>
-          <h1>Hello world.</h1>
-          <p>I’m a freelance web developer currently situated in Norwich, United Kingdom. I’ve had the pleasure to be in the industry for 4 years.</p>
+          <h1>Hi everyone.</h1>
+          <p>I’m a web developer currently situated in Colombo, Sri Lanka. I started coding while working as a Industrial HVAC Trainee. I’ve since moved onto Front-End and Full Stack Development.</p>
           <p>I first began my journey into code whilst studying Multimedia at <OutboundLink to="https://twitter.com/oliverbenns/status/345433447810101248">Nottingham Trent University</OutboundLink>. During my final year, I juggled assignments with part time work at <OutboundLink to="http://wearejh.com">JH</OutboundLink> where I maintained existing e-commerce websites by squashing bugs and adding new features. I gained a considerable amount of experience that I needed to step into the industry.</p>
 
           <p>Once obtaining my degree, I flew to Melbourne, Australia and worked with <OutboundLink to="http://inlight.com.au">Inlight</OutboundLink> for 3 years. I was responsible for the front end web development of various projects, such as web applications, mobile apps, static websites, online stores and blogs. With the variety of work and my attitude towards learning, I quickly grew from a graduate into a dependable, valuable front end developer that could work both solo and in teams.</p>
