@@ -26,8 +26,6 @@ const About = ({ location }) => (
 
           <p>I am currently a web developer at <OutboundLink to="https://surge.global/">Surge Global</OutboundLink>. It is an incredible adventure building great products, being a part of its culture and community, all while delivering value to our clients - with a team I admire.</p>
 
-          <p>Prior to developing web apps full time I produced electronic music, supported by the likes of Darude, Above & Beyond, W&W, Gareth Emery and many more.</p>
-
           <p>Check out my <Link to="/contact">blog</Link> if you would like to learn more.</p>
 
         </section>
@@ -50,29 +48,29 @@ const About = ({ location }) => (
       </div>
 
       <section>
-        <h2>What people say</h2>
+        <h2>{"Things I'm passionate about"}</h2>
         <div className={styles.referrals}>
           <div className={styles.referral}>
             <img src={lighthouseSrc} alt="Lighthouse logo" />
             <div>
-              <h4>Patrick Carne, Lighthouse</h4>
-              <p>“Over the last 3 years Oliver has grown into a solid front-end developer, with an ability and eagerness to pick up new technologies quickly. I have no doubt Oliver will go on to be an exceptional developer in any area he chooses to focus.”</p>
+              <h4>Web Development</h4>
+              <p>Programming is empowering. I am always excited by new libraries and frameworks and constantly look to grow as an engineer. As an Open Source Advocate I set up all my projects on <OutboundLink to="https://github.com/Christianq010">Github</OutboundLink>.</p>
             </div>
           </div>
 
           <div className={styles.referral}>
             <img src={inlightSrc} alt="Inlight logo" />
             <div>
-              <h4>Sina Karimi, Inlight</h4>
-              <p>“Oliver is an exceptional front end developer. He has grown rapidly over the past few years to be a valuable member of any development team. It has been a real pleasure to work with him over the years.”</p>
+              <h4>Electronic Music Production</h4>
+              <p>Prior to developing web apps full time I produced electronic music, supported by the likes of Darude, Above & Beyond, W&W, Gareth Emery and many more. Check out my <OutboundLink to="https://soundcloud.com/christianq-music">Soundcloud</OutboundLink> for more.</p>
             </div>
           </div>
 
           <div className={styles.referral}>
             <img src={ahmSrc} alt="Ahm logo" />
             <div>
-              <h4>James Hanley, Ahm</h4>
-              <p>“I worked with Oliver on a number of projects for the Ahm websites. When a new brief would come in he was consultative and logical in his approach to help us define a solution to our business problem. His collaborative approach and comfort with clients/business makes him a great addition to a digital development team.”</p>
+              <h4>Concept Art</h4>
+              <p>{"When I'm not hard at work, I constantly go through concept art for inspiration. I use a combination of Procreate and Sketch to draw a combination of my own art and mockups and upload it to my "} <OutboundLink to="https://www.artstation.com/christianq010">Artstation</OutboundLink> account.</p>
             </div>
           </div>
         </div>
