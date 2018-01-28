@@ -20,24 +20,30 @@ const About = ({ location }) => (
       <div className={styles.about}>
         <section className={styles.intro}>
           <h1>Hi everyone.</h1>
-          <p>I’m a web developer currently situated in Colombo, Sri Lanka. I started coding while working as a Industrial HVAC Trainee. I’ve since moved onto Front-End and Full Stack Development.</p>
-          <p>I first began my journey into code whilst studying Multimedia at <OutboundLink to="https://twitter.com/oliverbenns/status/345433447810101248">Nottingham Trent University</OutboundLink>. During my final year, I juggled assignments with part time work at <OutboundLink to="http://wearejh.com">JH</OutboundLink> where I maintained existing e-commerce websites by squashing bugs and adding new features. I gained a considerable amount of experience that I needed to step into the industry.</p>
+          <p>I am Christiaan Quyn, a self-taught Software Developer and Open Source Advocate who enjoys building visually pleasing web applications with a keen focus on seamless UI/UX.</p>
 
-          <p>Once obtaining my degree, I flew to Melbourne, Australia and worked with <OutboundLink to="http://inlight.com.au">Inlight</OutboundLink> for 3 years. I was responsible for the front end web development of various projects, such as web applications, mobile apps, static websites, online stores and blogs. With the variety of work and my attitude towards learning, I quickly grew from a graduate into a dependable, valuable front end developer that could work both solo and in teams.</p>
+          <p>I started coding while working as a Trainee Engineer for Industrial HVAC Equipment. I developed an interest in programming totally by accident during my tenure as a service technician for Industrial Chillers in Sri Lanka.</p>
 
-          <p>I now work on a freelance basis working on both ideas of my own and others. If you have a project in mind, <Link to="/contact">get in touch</Link>.</p>
+          <p>I am currently a web developer at <OutboundLink to="https://surge.global/">Surge Global</OutboundLink>. It is an incredible adventure building great products, being a part of its culture and community, all while delivering value to our clients - with a team I admire.</p>
+
+          <p>Prior to developing web apps full time I produced electronic music, supported by the likes of Darude, Above & Beyond, W&W, Gareth Emery and many more.</p>
+
+          <p>Check out my <Link to="/contact">blog</Link> if you would like to learn more.</p>
+
         </section>
         <aside className={styles.skills}>
           <div>
             <h3>Skills</h3>
             <h4>Presentation</h4>
-            <p>Bootstrap, Css, Html, Less, Postcss, Sass, Stylus</p>
+            <p>Bootstrap, Css, Html, Less, Sass</p>
             <h4>Javascript</h4>
-            <p>Angular, Grunt, Gulp, jQuery, Pug, React, React Native, Redux, Webpack</p>
+            <p>Ember, Gulp, Bower, jQuery, Nunjucks, React, Webpack</p>
+            <h4>Python</h4>
+            <p>Flask, Django, pip, SQLAlchemy, venv </p>
             <h4>Server</h4>
-            <p>Express, Mongo, Node, SQL</p>
+            <p>Node, PostgreSQL, MySQL, Mongo </p>
             <h4>Other</h4>
-            <p>C, CI, Git, Svn, Unity 3D</p>
+            <p>Ubuntu Config, Vagrant, Git, SSH </p>
           </div>
 
         </aside>

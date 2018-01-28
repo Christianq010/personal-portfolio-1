@@ -42,9 +42,9 @@ export default class Header extends Component {
         <Wrapper>
           <div className={styles.inner}>
             <h1 className={styles.title}>
-              <Link to="/">Oliver Benns</Link>
+              <Link to="/">Christiaan Quyn</Link>
             </h1>
-            <GitHubButton type="stargazers" namespace="oliverbenns" repo="oliverbenns.com" className={styles.github} />
+            <GitHubButton type="stargazers" namespace="christianq010" repo="personal-portfolio-1" className={styles.github} />
             <Hamburger onClick={() => this.toggleMenu()} active={menuActive} className={styles.hamburger} />
           </div>
         </Wrapper>
