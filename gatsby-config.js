@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Oliver Benns',
-    url: 'https://oliverbenns.com',
-    description: 'Oliver Benns is a freelance web developer working with individuals and agencies across the world.',
+    title: 'Christiaan Quyn',
+    url: 'https://chrisquyn.com',
+    description: 'Christiaan Quyn is a passionate Front-End developer, music producer and concept artist.',
   },
   plugins: [
     {
