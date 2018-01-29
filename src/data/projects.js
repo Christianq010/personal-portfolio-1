@@ -1,16 +1,15 @@
 const projects = [
   {
     className: 'click',
-    description: 'Australia\'s first mobile App that helps busy families quickly find and secure available childcare.',
+    description: 'A Bank Of America inspired mobile banking app designed in Sketch, turned into a webpage optimized for a mobile experience.',
     links: {
-      ios: 'https://itunes.apple.com/app/id1175973285',
-      android: 'https://play.google.com/store/apps/details?id=com.clickchildcareapp',
+      website: 'https://github.com/Christianq010/finance_frontend-mobile1',
     },
-    slug: 'click-childcare',
-    title: 'Click Childcare',
-    cover: require('./click.png'),
+    slug: 'finance-app',
+    title: 'Finance App',
+    cover: require('./sass.png'),
     theme: {
-      background: '#00a5d1',
+      background: '#165e95',
     },
   },
   {
@@ -29,16 +28,16 @@ const projects = [
   },
   {
     className: 'chadstone',
-    description: 'A rebuild of the existing website in line with the unveiling of the mall\'s new shopping, dining & entertainment precincts.',
-    clientDescription: 'Chadstone Shopping Centre is a shopping centre located in the city of Melbourne, Australia. Since opening in 1960, it is now the biggest shopping centre in the country with over 500 stores.',
+    description: 'This Web App is an interactive Google Map of Sri Lanka with various National Wildlife Parks marked all around the map.',
+    clientDescription: 'A single page application featuring a neighborhood map, with added functionality including highlighted locations, third-party data about those locations and various ways to browse the content.',
     links: {
-      website: 'https://www.chadstone.com.au',
+      website: 'https://christianq010.github.io/Neighborhood-Map-Master/',
     },
-    slug: 'chadstone',
-    title: 'Chadstone',
-    cover: require('./chadstone.jpg'),
+    slug: 'neighborhood-map',
+    title: 'Neighborhood Map',
+    cover: require('./maps-icon.svg'),
     theme: {
-      background: '#a77e60',
+      background: '#558B2F',
     },
   },
   {
