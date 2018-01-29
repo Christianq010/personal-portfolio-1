@@ -1,16 +1,18 @@
 {
-  "name": "oliverbenns",
+  "name": "christiaanquyn",
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
-  "author": "Oliver Benns",
+  "author": "Christiaan Quyn",
   "dependencies": {
     "classnames": "^2.2.5",
     "gatsby": "^1.8.4",
     "gatsby-link": "^1.6.7",
     "gatsby-plugin-google-analytics": "^1.0.3",
+    "gatsby-source-filesystem": "^1.5.15",
+    "gatsby-transformer-remark": "^1.7.30",
     "react-github-button": "^0.1.11",
-    "react-helmet": "^5.1.3"
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
