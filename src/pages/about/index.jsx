@@ -26,7 +26,7 @@ const About = ({ location }) => (
 
           <p>I am currently a web developer at <OutboundLink to="https://surge.global/">Surge Global</OutboundLink>. It is an incredible adventure building great products, being a part of its culture and community, all while delivering value to our clients - with a team I admire.</p>
 
-          <p>Check out my <Link to="/contact">blog</Link> if you would like to learn more.</p>
+          <p>Check out my <Link to="/blog">blog</Link> if you would like to learn more.</p>
 
         </section>
         <aside className={styles.skills}>

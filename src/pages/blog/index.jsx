@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import ContentPage from '../../components/content-page';
+import Social from '../../components/social-icons';
+
 import Meta from '../../components/meta';
 import OutboundLink from '../../components/outbound-link';
 import Wrapper from '../../components/wrapper';
@@ -35,10 +37,12 @@ const Blog = ({ location, data }) => (
 
         <section>
           <div className={styles.blogPostFooter}>
-            <h4>Addionally you can check out my medium posts here <OutboundLink to="https://google.lk">Chris @ medium</OutboundLink></h4>
+            <h4>Additionally you can check out my medium <OutboundLink to="https://medium.com/@christianq010">here</OutboundLink>.</h4>
           </div>
         </section>
       </div>
+
+      <Social />
 
     </Wrapper>
   </ContentPage>
