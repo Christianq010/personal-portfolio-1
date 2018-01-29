@@ -1,0 +1,17 @@
+.blog {
+    /*  */
+}
+
+.blogHeader {
+    margin: 3em 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* horizontal line */
+.line {
+    height: 0.4em;
+    background: black;
+}
