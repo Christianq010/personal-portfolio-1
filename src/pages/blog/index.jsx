@@ -34,7 +34,7 @@ const Blog = ({ location, data }) => (
         </ul>
 
         <section>
-          <div>
+          <div className={styles.blogPostFooter}>
             <h4>Addionally you can check out my medium posts here <OutboundLink to="https://google.lk">Chris @ medium</OutboundLink></h4>
           </div>
         </section>

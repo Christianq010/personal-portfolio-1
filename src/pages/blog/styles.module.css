@@ -1,9 +1,12 @@
+/* Blog Index Page */
+
 .blog {
     /*  */
 }
 
+
 .blogHeader {
-    margin: 3em 2em;
+    margin: 3em 2em 3em 2em;
 }
 
 a {
@@ -14,4 +17,22 @@ a {
 .line {
     height: 0.4em;
     background: black;
+}
+
+.blogPostFooter {
+    margin: 3em 0 0 0;
+}
+
+/* Blog Post Page */
+
+.post {
+    /*  */
+}
+
+.postContent {
+    margin: 2em 0;
+}
+
+.categoryPost {
+    margin: 2em 0;
 }
