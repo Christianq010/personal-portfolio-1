@@ -15,13 +15,13 @@ const projects = [
   },
   {
     className: 'kindyNow',
-    description: 'Web app to allow childcare centre managers to monitor and control absences, bookings and capacities.',
+    description: 'A Web application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.',
     links: {
-      website: 'https://kindynow.com/admin',
+      website: 'https://fsnd-item-catalog-app.herokuapp.com/',
     },
-    slug: 'kindynow',
-    title: 'KindyNow',
-    cover: require('./kindynow.png'),
+    slug: 'item-catalog',
+    title: 'Item Catalog',
+    cover: require('./flask.png'),
     theme: {
       background: '#F7F7F7',
       light: true,
