@@ -28,14 +28,14 @@ export default function Template({ location, data }) {
 }
 
 export const postQuery = graphql `
-    query BlogPostByPath($path: String!) {
-        markdownRemark(frontmatter: { path: { eq: $path } }) {
-            html, 
+    query BlogPostByPath {
+        markdownRemark {
+            html
             frontmatter {
-                path
-                title
-                date (formatString: "MMMM DD, YYYY")
-                category
+              date(formatString: "MMMM DD, YYYY")
+              path
+              title
+              category
             }
         }
     }

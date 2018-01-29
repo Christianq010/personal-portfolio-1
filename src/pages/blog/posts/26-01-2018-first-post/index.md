@@ -1,8 +1,8 @@
 ---
 path: '/first-post'
+date: '2017-07-12T13:12:54.330Z'
 title: 'First Blog Post'
 published: true
-date: '2017-07-12T13:12:54.330Z'
 category: 'Personal'
 ---
 
