@@ -51,7 +51,7 @@ const About = ({ location }) => (
         <h2>{"Things I'm passionate about"}</h2>
         <div className={styles.referrals}>
           <div className={styles.referral}>
-            <img src={lighthouseSrc} alt="Lighthouse logo" />
+            <img src={lighthouseSrc} alt="Profile" />
             <div>
               <h4>Web Development</h4>
               <p>Programming is empowering. I am always excited by new libraries and frameworks and constantly look to grow as an engineer. As an Open Source Advocate I set up all my projects on <OutboundLink to="https://github.com/Christianq010">Github</OutboundLink>.</p>
@@ -59,7 +59,7 @@ const About = ({ location }) => (
           </div>
 
           <div className={styles.referral}>
-            <img src={inlightSrc} alt="Inlight logo" />
+            <img src={inlightSrc} alt="Shokstix logo" />
             <div>
               <h4>Electronic Music Production</h4>
               <p>Prior to developing web apps full time I produced electronic music, supported by the likes of Darude, Above & Beyond, W&W, Gareth Emery and many more. Check out my <OutboundLink to="https://soundcloud.com/christianq-music">Soundcloud</OutboundLink> for more.</p>
@@ -67,7 +67,7 @@ const About = ({ location }) => (
           </div>
 
           <div className={styles.referral}>
-            <img src={ahmSrc} alt="Ahm logo" />
+            <img src={ahmSrc} alt="Crystal Cave thumbnail" />
             <div>
               <h4>Concept Art</h4>
               <p>{"When I'm not hard at work, I constantly go through concept art for inspiration. I use a combination of Procreate and Sketch to draw a combination of my own art and mockups and upload it to my "} <OutboundLink to="https://www.artstation.com/christianq010">Artstation</OutboundLink> account.</p>
