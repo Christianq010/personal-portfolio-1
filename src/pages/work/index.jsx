@@ -10,7 +10,7 @@ import styles from './styles.module.css';
 
 const Work = ({ location }) => (
   <div>
-    <Meta title="Work" description="Web applications, static websites and mobile apps built built by or collaboratively with Oliver Benns." location={location} />
+    <Meta title="Work" description="Web applications, static websites and mobile apps built built by Christiaan Quyn." location={location} />
 
     {projects.map(project => <ProjectPanel project={project} key={project.slug} />)}
 
