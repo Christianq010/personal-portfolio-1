@@ -1,7 +1,7 @@
 ---
 path: '/second-post'
 title: 'Second Blog Post'
-published: true
+published: false
 date: '2017-10-12T17:58:12.330Z'
 category: 'Professional'
 ---
