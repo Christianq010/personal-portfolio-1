@@ -16,7 +16,7 @@ const Work = ({ location }) => (
 
     <div className={styles.contact}>
       <Wrapper>
-        <Contact title="Your project here?" />
+        <Contact title="" />
       </Wrapper>
     </div>
   </div>
