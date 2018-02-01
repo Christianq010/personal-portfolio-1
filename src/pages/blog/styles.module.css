@@ -26,8 +26,13 @@ a {
 /* Blog Post Page */
 
 .post {
-    /*  */
+    margin: 2em 0 0 0;
 }
+
+.backLink {
+    font-style: italic;
+}
+
 
 .postContent {
     margin: 2em 0;

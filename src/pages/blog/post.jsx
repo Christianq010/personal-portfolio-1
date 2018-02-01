@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import ContentPage from '../../components/content-page';
 import Meta from '../../components/meta';
 
@@ -14,11 +15,14 @@ export default function Template({ location, data }) {
     <ContentPage>
       <Meta title="Blog | Post" location={location} />
       <Wrapper>
+        <h6 className={styles.backLink}><Link to="/blog">Back</Link></h6>
+        {/* <hr /> */}
         <div className={styles.post}>
-          <h5 className={styles.categoryPost}> { post.frontmatter.category } </h5>
           <h1> { post.frontmatter.title } </h1>
           <br />
-          <h4> { post.frontmatter.date } </h4>
+          <h4>Published { post.frontmatter.date } </h4>
+          <h5 className={styles.categoryPost}> / { post.frontmatter.category } </h5>
+          {/* <hr /> */}
           <br />
           <div className={styles.postContent} dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
@@ -28,8 +32,8 @@ export default function Template({ location, data }) {
 }
 
 export const postQuery = graphql `
-    query BlogPostByPath {
-        markdownRemark {
+    query BlogPostByPath($path: String!) {
+        markdownRemark (frontmatter: { path: { eq: $path } }) {
             html
             frontmatter {
               date(formatString: "MMMM DD, YYYY")
