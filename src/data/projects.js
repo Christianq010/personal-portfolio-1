@@ -7,7 +7,7 @@ const projects = [
     },
     slug: 'finance-app',
     title: 'Finance App',
-    cover: require('./sass.png'),
+    cover: require('./logo.svg'),
     theme: {
       background: '#165e95',
     },
