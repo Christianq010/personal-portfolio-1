@@ -10,3 +10,20 @@ Hosted at - chrisquyn.surge.sh
 ## Run
 - In development: `npm run develop`.
 - Static build: `npm run build`.
+
+### Troubleshooting : 
+
+Unable to build HTMl with the following query 
+```
+query BlogPostByPath($path: String!) {
+        markdownRemark (frontmatter: { path: { eq: $path } }) {
+            html
+            frontmatter {
+              date(formatString: "MMMM DD, YYYY")
+              path
+              title
+              category
+            }
+        }
+    }
+```
