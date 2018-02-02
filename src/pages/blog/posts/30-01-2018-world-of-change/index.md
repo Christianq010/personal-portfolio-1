@@ -10,7 +10,7 @@ category: 'Personal'
 
 # 
 
-With nothing but personal belief in being able to build amazing things, 3 years ago I decided to acquire the right set of skills and experience to begin a transition into software development.
+About 3 years ago I decided to acquire the right set of skills and experience to begin a transition into software development.
 
 At the time I worked as an HVAC service engineer on industrial chillers. My job was basically ensuring all pre-commissioning conditions were met prior to installing the equipment I was meant to maintain. I was one of two Melbourne trained engineers in Sri Lanka for the SMARDT chiller brand. The company produced the most sophisticated industrial chiller at the time, an oil-free magnetic bearing chiller - capable of handling large heating loads very effectively all while producing revolutionary energy savings because of its radical new technology.
 
