@@ -1,0 +1,116 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-blog-index-jsx": [
+      "component---src-pages-blog-index-jsx-20253f2b55f0d2cad5ee.js",
+      "component---src-pages-blog-index-jsx-20253f2b55f0d2cad5ee.js.map"
+    ],
+    "component---src-pages-work-index-jsx": [
+      "component---src-pages-work-index-jsx-b416211f5813d895d2f0.js",
+      "component---src-pages-work-index-jsx-b416211f5813d895d2f0.js.map"
+    ],
+    "path---second-post": [
+      "path---second-post-119118489e37778732e1.js",
+      "path---second-post-119118489e37778732e1.js.map"
+    ],
+    "path---work": [
+      "path---work-a0e39f21c11f6a62c5ab.js",
+      "path---work-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---blog": [
+      "path---blog-f61496af02d61570187a.js",
+      "path---blog-f61496af02d61570187a.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-jsx": [
+      "component---src-layouts-index-jsx-151e612338f05c924af5.js",
+      "component---src-layouts-index-jsx-151e612338f05c924af5.js.map"
+    ],
+    "component---src-pages-contact-index-jsx": [
+      "component---src-pages-contact-index-jsx-da2e36ced6a0848c4ba6.js",
+      "component---src-pages-contact-index-jsx-da2e36ced6a0848c4ba6.js.map"
+    ],
+    "path---work-finance-app": [
+      "path---work-finance-app-a0e39f21c11f6a62c5ab.js",
+      "path---work-finance-app-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-about-index-jsx": [
+      "component---src-pages-about-index-jsx-7d51a16840c0fe66ca4e.js",
+      "component---src-pages-about-index-jsx-7d51a16840c0fe66ca4e.js.map"
+    ],
+    "component---src-pages-work-item-catalog-index-jsx": [
+      "component---src-pages-work-item-catalog-index-jsx-054a96eb8d0aea1178a9.js",
+      "component---src-pages-work-item-catalog-index-jsx-054a96eb8d0aea1178a9.js.map"
+    ],
+    "path---work-neighborhood-map": [
+      "path---work-neighborhood-map-a0e39f21c11f6a62c5ab.js",
+      "path---work-neighborhood-map-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-work-neighborhood-map-index-jsx": [
+      "component---src-pages-work-neighborhood-map-index-jsx-feef6e96be34032893bf.js",
+      "component---src-pages-work-neighborhood-map-index-jsx-feef6e96be34032893bf.js.map"
+    ],
+    "component---src-pages-blog-post-jsx": [
+      "component---src-pages-blog-post-jsx-a61d070b06671fdae7e2.js",
+      "component---src-pages-blog-post-jsx-a61d070b06671fdae7e2.js.map"
+    ],
+    "commons": [
+      "commons-4e64479e93777a4edb55.js",
+      "build-js-styles.css",
+      "commons-4e64479e93777a4edb55.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-work-finance-app-index-jsx": [
+      "component---src-pages-work-finance-app-index-jsx-9a5900201cf368265b05.js",
+      "component---src-pages-work-finance-app-index-jsx-9a5900201cf368265b05.js.map"
+    ],
+    "path---blog-post": [
+      "path---blog-post-119118489e37778732e1.js",
+      "path---blog-post-119118489e37778732e1.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-jsx": [
+      "component---src-pages-404-jsx-1397948ea69f14c56795.js",
+      "component---src-pages-404-jsx-1397948ea69f14c56795.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-9923cfdffed364fde08c.js",
+      "component---src-pages-index-jsx-9923cfdffed364fde08c.js.map"
+    ],
+    "path---work-item-catalog": [
+      "path---work-item-catalog-a0e39f21c11f6a62c5ab.js",
+      "path---work-item-catalog-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-be1fd3c5e67397075c07.js",
+      "build-js-styles.css",
+      "app-be1fd3c5e67397075c07.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---world-of-change": [
+      "path---world-of-change-1a5af7138a71fc07454d.js",
+      "path---world-of-change-1a5af7138a71fc07454d.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
