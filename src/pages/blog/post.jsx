@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+
 import ContentPage from '../../components/content-page';
 import Meta from '../../components/meta';
 
@@ -32,8 +33,8 @@ export default function Template({ location, data }) {
 }
 
 export const postQuery = graphql `
-    query BlogPostByPath {
-        markdownRemark {
+    query BlogPostByPath ($path: String!) {
+        markdownRemark (frontmatter: { path: { eq: $path } }) {
             html
             frontmatter {
               date(formatString: "MMMM DD, YYYY")
