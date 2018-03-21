@@ -29,7 +29,7 @@ export default function Template({ location, data }) {
     </ContentPage>
   );
 }
-
+// Query that always returns an error
 export const postQuery = graphql `
     query BlogPostByPath {
         markdownRemark {

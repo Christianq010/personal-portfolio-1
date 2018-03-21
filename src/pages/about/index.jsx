@@ -20,7 +20,7 @@ const About = ({ location }) => (
       <div className={styles.about}>
         <section className={styles.intro}>
           <h1>Hi everyone.</h1>
-          <p>I am Christiaan Quyn, a self-taught Software Developer and Open Source Advocate who enjoys building visually pleasing web applications with a keen focus on seamless UI/UX.</p>
+          <p>I am Christiaan Quyn, a self-taught Software Developer and Open Source Advocate who enjoys building visually pleasing web applications with a keen focus on seamless UI/UX based in Colombo, Sri Lanka.</p>
 
           <p>I started coding while working as a Trainee Engineer for Industrial HVAC Equipment. I developed an interest in programming totally by accident during my tenure as a service engineer for Industrial Chillers in Sri Lanka.</p>
 
@@ -35,7 +35,7 @@ const About = ({ location }) => (
             <h4>Presentation</h4>
             <p>Bootstrap, Css, Html, Less, Sass</p>
             <h4>Javascript</h4>
-            <p>Ember, Gulp, Bower, jQuery, Nunjucks, React, Webpack</p>
+            <p>React, React Native, Vue, Webpack, Gulp, Bower, jQuery, Knockout, Nunjucks</p>
             <h4>Python</h4>
             <p>Flask, Django, pip, SQLAlchemy, venv </p>
             <h4>Server</h4>
