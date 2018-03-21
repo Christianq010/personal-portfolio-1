@@ -5,7 +5,9 @@
   "license": "MIT",
   "author": "Christiaan Quyn",
   "dependencies": {
+    "aws-amplify": "^0.2.0",
     "classnames": "^2.2.5",
+    "firebase": "^4.9.1",
     "gatsby": "^1.8.4",
     "gatsby-link": "^1.6.7",
     "gatsby-plugin-google-analytics": "^1.0.3",
