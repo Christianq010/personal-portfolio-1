@@ -26,22 +26,22 @@ const About = ({ location }) => (
 
           <p>I am currently a web developer at <OutboundLink to="https://surge.global/">Surge Global</OutboundLink>. It is an incredible adventure building great products, being a part of its culture and community, all while delivering value to our clients - with a team I admire.</p>
 
-          <p>Check out my <Link to="/blog">blog</Link> if you would like to learn more.</p>
+          <p>Check out my <OutboundLink to="https://medium.com/@christianq010">blog</OutboundLink> if you would like to learn more.</p>
 
         </section>
         <aside className={styles.skills}>
           <div>
             <h3>Skills</h3>
             <h4>Presentation</h4>
-            <p>Bootstrap, Css, Html, Less, Sass</p>
+            <p>Bootstrap, Css, Html, Less, Scss</p>
             <h4>Javascript</h4>
-            <p>React, React Native, Vue, Webpack, Gulp, Bower, jQuery, Knockout, Nunjucks</p>
+            <p>React, Vue, React Native, Webpack, Gulp, Bower, jQuery, Knockout, Nunjucks</p>
             <h4>Python</h4>
-            <p>Flask, Django, pip, SQLAlchemy, venv </p>
+            <p>Flask, Django, pip, SQLAlchemy, venv</p>
             <h4>Server</h4>
-            <p>Node, PostgreSQL, MySQL, Mongo </p>
+            <p>Node, PostgreSQL, MySQL, Mongo</p>
             <h4>Other</h4>
-            <p>Ubuntu Config, Vagrant, Git, SSH </p>
+            <p>Ubuntu Config, Vagrant, Git, SSH</p>
           </div>
 
         </aside>
