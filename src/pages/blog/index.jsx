@@ -16,28 +16,10 @@ const Blog = ({ location, data }) => (
     <Meta title="Blog" location={location} />
     <Wrapper>
       <div className={styles.blog}>
-        <h1>All Stories</h1>
-        <ul>
-          { data.allMarkdownRemark.edges.map(post => (
-            <li>
-              <div className={styles.blogHeader}>
-                <h3
-                  key={post.node.id}
-                >
-                  {post.node.frontmatter.title}
-                </h3>
-                <p>{ post.node.frontmatter.date } / { post.node.frontmatter.category } </p>
-                <p>{ post.node.excerpt }</p>
-                <Link to={post.node.frontmatter.path} className={styles.readMore}>Read more</Link>
-              </div>
-              <hr className={styles.line} />
-            </li>
-          ))}
-        </ul>
-
+        <h1>Blog</h1>
         <section>
           <div className={styles.blogPostFooter}>
-            <h4>Additionally you can check out my medium <OutboundLink to="https://medium.com/@christianq010">here</OutboundLink>.</h4>
+            <h4>Check out my Medium stories <OutboundLink to="https://medium.com/@christianq010">here</OutboundLink>.</h4>
           </div>
         </section>
       </div>

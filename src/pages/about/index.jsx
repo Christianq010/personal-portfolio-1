@@ -20,9 +20,9 @@ const About = ({ location }) => (
       <div className={styles.about}>
         <section className={styles.intro}>
           <h1>Hi everyone.</h1>
-          <p>I am Christiaan Quyn, a self-taught Software Developer and Open Source Advocate who enjoys building visually pleasing web applications with a keen focus on seamless UI/UX based in Colombo, Sri Lanka.</p>
+          <p>I am Christiaan Quyn, a self-taught software developer and open source advocate who enjoys building visually pleasing web applications with a keen focus on seamless UI/UX based in Colombo, Sri Lanka.</p>
 
-          <p>I started coding while working as a Trainee Engineer for Industrial HVAC Equipment. I developed an interest in programming totally by accident during my tenure as a service engineer for Industrial Chillers in Sri Lanka.</p>
+          <p>I started coding while working as a support engineer for industrial HVAC equipment. I developed an interest in programming totally by accident during my tenure as a service engineer for industrial chillers in Sri Lanka.</p>
 
           <p>I am currently a web developer at <OutboundLink to="https://surge.global/">Surge Global</OutboundLink>. It is an incredible adventure building great products, being a part of its culture and community, all while delivering value to our clients - with a team I admire.</p>
 
