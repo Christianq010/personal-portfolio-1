@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-blog-index-jsx": [
-      "component---src-pages-blog-index-jsx-20253f2b55f0d2cad5ee.js",
-      "component---src-pages-blog-index-jsx-20253f2b55f0d2cad5ee.js.map"
+      "component---src-pages-blog-index-jsx-45f8ff50f78effc5deaa.js",
+      "component---src-pages-blog-index-jsx-45f8ff50f78effc5deaa.js.map"
     ],
     "component---src-pages-work-index-jsx": [
       "component---src-pages-work-index-jsx-b416211f5813d895d2f0.js",
@@ -25,8 +25,8 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-151e612338f05c924af5.js",
-      "component---src-layouts-index-jsx-151e612338f05c924af5.js.map"
+      "component---src-layouts-index-jsx-e9c9723819ad7889adaf.js",
+      "component---src-layouts-index-jsx-e9c9723819ad7889adaf.js.map"
     ],
     "component---src-pages-contact-index-jsx": [
       "component---src-pages-contact-index-jsx-da2e36ced6a0848c4ba6.js",
@@ -37,8 +37,8 @@
       "path---work-finance-app-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-about-index-jsx": [
-      "component---src-pages-about-index-jsx-4183388b4cea861a3455.js",
-      "component---src-pages-about-index-jsx-4183388b4cea861a3455.js.map"
+      "component---src-pages-about-index-jsx-668dcb92faaf990b3c51.js",
+      "component---src-pages-about-index-jsx-668dcb92faaf990b3c51.js.map"
     ],
     "component---src-pages-work-item-catalog-index-jsx": [
       "component---src-pages-work-item-catalog-index-jsx-054a96eb8d0aea1178a9.js",
@@ -95,9 +95,9 @@
       "path---work-item-catalog-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-6115e6e44c162b2e5291.js",
+      "app-9e96145b00364f186024.js",
       "build-js-styles.css",
-      "app-6115e6e44c162b2e5291.js.map",
+      "app-9e96145b00364f186024.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
