@@ -30,28 +30,4 @@ const Blog = ({ location, data }) => (
   </ContentPage>
 );
 
-export const pageQuery = graphql `
-  query IndexQuery {
-    allMarkdownRemark ( 
-      limit: 10
-      sort: { fields: [frontmatter___date], order: ASC }
-      filter: { frontmatter: { published: {eq: true} } }
-    )
-    {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 200)
-          frontmatter {
-            title
-            path
-            date (formatString: "MMMM DD, YYYY")
-            category
-          }
-        }
-      }
-    }
-  }
-`;
-
 export default Blog;
