@@ -10,7 +10,7 @@ import { ProjectDescription, ProjectIntro, ProjectPage } from '../../../componen
 
 const images = {
   desktop: [
-    { src: require('./img/main.png'), description: 'Tesla landing page' },
+    { src: require('./img/main.jpg'), description: 'Tesla landing page' },
   ],
 };
 
