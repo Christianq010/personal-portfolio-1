@@ -36,8 +36,8 @@
 }
 
 .mrRed .inner {
-  background-position-x: 15%;
-  background-size: auto 50%;
+  background-position-x: 5%;
+  background-size: auto 20%;
 }
 
 .ahm .inner {
@@ -57,7 +57,7 @@
 }
 
 .kindyNow .inner {
-  background-position-x: 15%;
+  background-position-x: 0%;
   background-size: auto 75%;
 }
 

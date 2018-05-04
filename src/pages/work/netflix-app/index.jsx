@@ -10,19 +10,15 @@ import { ProjectDescription, ProjectIntro, ProjectPage } from '../../../componen
 
 const images = {
   desktop: [
-    { src: require('./img/main.png'), description: 'Map main page' },
-    { src: require('./img/sidebar.png'), description: 'map sidebar' },
-    { src: require('./img/selected-location.png'), description: 'map selected location' },
+    { src: require('./img/main.jpg'), description: 'Netflix desktop landing page' },
   ],
   mobile: [
-    { src: require('./img/mobile-main.png'), description: 'Main page mobile' },
-    { src: require('./img/mobile-sidebar.png'), description: 'Sidebar on mobile' },
-    { src: require('./img/mobile-selected.png'), description: 'Selected location mobile' },
+    { src: require('./img/mobile-main.jpg'), description: 'Netflix home page on mobile' },
   ],
 };
 
-const NeighborhoodMap = ({ location }) => {
-  const project = projects.find(p => p.slug === 'neighborhood-map');
+const NetflixApp = ({ location }) => {
+  const project = projects.find(p => p.slug === 'netflix-app');
 
   const image = (
     <img src={project.cover} alt="Cover" />
@@ -39,8 +35,8 @@ const NeighborhoodMap = ({ location }) => {
       <ProjectIntro project={project} media={image} />
       <ProjectDescription media={iphone}>
         <h3>Project</h3>
-        <p>An interactive Google Map of Sri Lanka with various National Wildlife Parks marked all around the map. Click on one of the location markers to display the title of the park and a snippet of that location via Wikipedia.</p>
-        <p>Github repo <OutboundLink to="https://github.com/Christianq010/Neighborhood-Map-Master">here</OutboundLink></p>
+        <p>This project is a clone of the Netflix landing page (10/02/2018) built with React 16 Components. This project was bootstrapped with Create React App. Tools used to aid the Front-end work were Styled Components, React Developer Tools and Webpack.</p>
+        <p>Github repo <OutboundLink to="https://github.com/Christianq010/netflix_landing-page">here</OutboundLink></p>
       </ProjectDescription>
       <Wrapper>
         <Macbook>
@@ -51,4 +47,4 @@ const NeighborhoodMap = ({ location }) => {
   );
 };
 
-export default NeighborhoodMap;
+export default NetflixApp;
