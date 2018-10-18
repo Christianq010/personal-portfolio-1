@@ -25,7 +25,7 @@ const NetflixApp = ({ location }) => {
   );
 
   const iphone = (
-    <Iphone>
+    <Iphone invert>
       <Carousel images={images.mobile} />
     </Iphone>
   );
