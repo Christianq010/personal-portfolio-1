@@ -16,7 +16,7 @@ const Index = ({ location }) => (
           Hello. I’m Christiaan Quyn.
           <br />
           <br />
-          A passionate Front-End developer, music producer and concept artist.
+          A passionate front-end developer, music producer and concept artist.
           <br />
           <br />
           Check out my <Link className={styles.link} to="/work">work</Link>.

@@ -22,20 +22,18 @@ const About = ({ location }) => (
           <h1>Hi everyone.</h1>
           <p>I am Christiaan Quyn, a self-taught software developer and open source advocate who enjoys building visually pleasing web applications with a keen focus on seamless UI/UX based in Colombo, Sri Lanka.</p>
 
-          <p>I started coding while working as a support engineer for industrial HVAC equipment. I developed an interest in programming totally by accident during my tenure as a service engineer for industrial chillers in Sri Lanka.</p>
+          <p>I started coding while working as a support engineer for industrial HVAC equipment. I developed an interest in programming totally by accident during my tenure as a service engineer.</p>
 
-          <p>I am currently a web developer at <OutboundLink to="https://surge.global/">Surge Global</OutboundLink>. It is an incredible adventure building great products, being a part of its culture and community, all while delivering value to our clients - with a team I admire.</p>
-
-          <p>Check out my <OutboundLink to="https://medium.com/@christianq010">blog</OutboundLink> if you would like to learn more.</p>
+          <p>I am currently a web developer at <OutboundLink to="https://surge.global/">Surge Global</OutboundLink>. Additionally, I have an avid interest in history and economics and write about design, software development and business. Check out my <OutboundLink to="https://medium.com/@christianq010">blog</OutboundLink> if you would like to learn more.</p>
 
         </section>
         <aside className={styles.skills}>
           <div>
             <h3>Skills</h3>
             <h4>Presentation</h4>
-            <p>Bootstrap, Css, Html, Less, Scss</p>
+            <p>Css Grids, Flexbox, Css, Html, Less, Scss</p>
             <h4>Javascript</h4>
-            <p>React, Vue, React Native, Webpack, Gulp, Bower, jQuery, Knockout, Nunjucks</p>
+            <p>React, Vue, Webpack, Gulp, Bower, React Native, jQuery, Knockout</p>
             <h4>Python</h4>
             <p>Flask, Django, pip, SQLAlchemy, venv</p>
             <h4>Server</h4>
@@ -54,7 +52,7 @@ const About = ({ location }) => (
             <img src={lighthouseSrc} alt="Profile" />
             <div>
               <h4>Web Development</h4>
-              <p>Programming is empowering. I am always excited by new libraries and frameworks and constantly look to grow as an engineer. As an Open Source Advocate I set up all my projects on <OutboundLink to="https://github.com/Christianq010">Github</OutboundLink>.</p>
+              <p>Programming is empowering. I am always excited by new libraries and frameworks and constantly look to grow as an engineer. As an open source advocate I set up all my projects on <OutboundLink to="https://github.com/Christianq010">Github</OutboundLink>.</p>
             </div>
           </div>
 
