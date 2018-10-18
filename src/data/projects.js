@@ -29,13 +29,14 @@ const projects = [
   },
   {
     className: 'chadstone',
-    description: 'A Web application that provides a list of items within a variety of categories as well as provide a user registration and authentication system. Registered users will have the ability to post, edit and delete their own items.',
+    description: 'The 2018 Bloomberg Markets Stock Page built with Vue JS, Vue Router and Charts JS. This project was about analyzing and recreating the Bloomberg Markets stocks page.',
     links: {
-      website: 'https://fsnd-item-catalog-app.herokuapp.com/',
+      website: 'https://bloomberg-markets.surge.sh/',
+      repo: 'https://github.com/Christianq010/vue_stock-trader',
     },
-    slug: 'item-catalog',
-    title: 'Item Catalog',
-    cover: require('./flask.png'),
+    slug: 'bloomberg-stock-page',
+    title: 'Bloomberg Markets Stock Page',
+    cover: require('./bmlogo.png'),
     theme: {
       background: '#FFEAD9',
       light: true,
