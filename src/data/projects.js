@@ -1,15 +1,16 @@
 const projects = [
   {
     className: 'click',
-    description: 'A Bank Of America inspired mobile banking app designed in Sketch, turned into a webpage optimized for a mobile experience.',
+    description: 'A clone of the Huffingtonpost.com homepage front-end (09/2018) built with Vue JS. Layout for desktop and mobile implemented on Flexbox and CSS Grids.',
     links: {
-      website: 'https://github.com/Christianq010/finance_frontend-mobile1',
+      website: 'https://huff-post-live.surge.sh',
+      repo: 'https://github.com/Christianq010/newspaper-front-end',
     },
-    slug: 'finance-app',
-    title: 'Finance App',
-    cover: require('./logo.svg'),
+    slug: 'huffpost-app',
+    title: 'Huffingtonpost Vue app',
+    cover: require('./HuffPostHero.svg'),
     theme: {
-      background: '#165e95',
+      background: '#000',
     },
   },
   {
@@ -22,7 +23,8 @@ const projects = [
     title: 'Project Netflix',
     cover: require('./netflix-logo1.png'),
     theme: {
-      background: '#000',
+      background: '#F7F7F7',
+      light: true,
     },
   },
   {
@@ -35,7 +37,7 @@ const projects = [
     title: 'Item Catalog',
     cover: require('./flask.png'),
     theme: {
-      background: '#F7F7F7',
+      background: '#FFEAD9',
       light: true,
     },
   },
