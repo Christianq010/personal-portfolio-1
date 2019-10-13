@@ -20,11 +20,11 @@ const About = ({ location }) => (
       <div className={styles.about}>
         <section className={styles.intro}>
           <h1>Hi everyone.</h1>
-          <p>I am Christiaan Quyn, a self-taught software developer and open source advocate who enjoys building visually pleasing web applications with a keen focus on seamless UI/UX based in Colombo, Sri Lanka.</p>
+          <p>I am Christiaan Quyn, an entrepreneur with an avid interest in product development, digital growth and capital allocation based in Colombo, Sri Lanka.</p>
 
-          <p>I started coding while working as a support engineer for industrial HVAC equipment. I developed an interest in programming totally by accident during my tenure as a service engineer.</p>
+          <p>I developed an interest in programming by accident during my tenure as a HVAC service engineer and then went on to work as a front-end developer before forming my own company. I enjoy constantly learning and discovering new and better ways to drive revenue growth through technology. </p>
 
-          <p>I am currently a web developer at <OutboundLink to="https://surge.global/">Surge Global</OutboundLink>. Additionally, I have an avid interest in history and economics and write about design, software development and business. Check out my <OutboundLink to="https://medium.com/@christianq010">blog</OutboundLink> if you would like to learn more.</p>
+          <p>I am the co-founder of <OutboundLink to="https://datasprig.com/">DataSprig</OutboundLink>. An agency dedicated to helping medium to large scale companies lead digital efforts that lead to real revenue growth, helping some of Sri Lanka's most respected corporate entities make data driven decisions that have increased their bottom line. Additionally, I have an avid interest in reading anything to do with value investing, history and economics and write about topics and books that interest me on my blog. Check out my <OutboundLink to="https://medium.com/@christianq010">blog</OutboundLink> if you would like to learn more.</p>
 
         </section>
         <aside className={styles.skills}>
